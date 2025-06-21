@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['http://Thecreatorshub.in'], // if you're loading external images
+    domains: ['thecreatorshub.in'], // ✅ correct format
   },
 };
 
