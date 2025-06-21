@@ -62,7 +62,7 @@ function App() {
   return (
     <div className='w-full scroll-smooth touch-pan-y border border-black overscroll-contain'>
       {/* App Bar */}
-      <nav className="fixed bottom-4 left-1/2 -translate-x-1/2 z-50 px-10 py-3 rounded-full backdrop-blur-xl bg-black/10 border border-white/20 shadow-md flex gap-6 text-white transition-all duration-300 scale-110 mb-1">
+      <nav className="fixed bottom-4 left-1/2 -translate-x-1/2 z-50 px-6 py-3 rounded-full backdrop-blur-md bg-black/50 border border-white/60 shadow-md flex gap-6 text-white transition-all duration-300 scale-110 mb-1">
   <button
     className="text-white hover:scale-150 transition-transform duration-300 p-2"
     onClick={() => scrollToSection(navRef)}
