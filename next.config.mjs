@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  reactStrictMode: true,
+  images: {
+    domains: ['http://Thecreatorshub.in'], // if you're loading external images
+  },
+};
 
-export default nextConfig;
+module.exports = nextConfig;
