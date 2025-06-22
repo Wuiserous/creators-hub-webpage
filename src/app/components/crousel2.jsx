@@ -2,11 +2,11 @@ import React, { useRef, useEffect, useState, forwardRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const shorts = [
-  "https://www.youtube.com/embed/1tojp2IwOXA",
-  "https://www.youtube.com/embed/nYMRS24mATg",
-  "https://www.youtube.com/embed/-Dhg-syHyPM",
-  "https://www.youtube.com/embed/-WowH0liGfE",
-  "https://www.youtube.com/embed/7hLtb-mucrg?feature=share"
+    "https://www.youtube.com/embed/-WowH0liGfE",
+  "https://www.youtube.com/embed/7hLtb-mucrg?feature=share",
+  "https://youtube.com/embed/vCbWrDSPenI?si=05N8BYDqp01NuXdz",
+  "https://youtube.com/embed/GGBvZhg4sVU?si=kYuvQMDaonW1bzHr",
+  "https://youtube.com/embed/o8xgHdkZrtc?si=Is9ChnjYleGk5MsN ",
 ];
 
 const ShortsCarousel = forwardRef((props, ref) =>{

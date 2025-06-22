@@ -33,7 +33,7 @@ const ContactCard = () => {
 
       {/* Footer */}
       <footer className="mt-10 text-xs text-gray-600 text-center leading-tight">
-        <p>Beastcreatives © 2025 All Rights Reserved</p>
+        <p>TheCreatorsHub © 2025 All Rights Reserved</p>
         <p className="pt-1">Made by Wuis</p>
       </footer>
     </div>

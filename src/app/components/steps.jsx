@@ -3,18 +3,18 @@ import React from "react";
 const steps = [
   {
     number: 1,
-    title: "Define Your Project Goals",
-    desc: "Identify what you need (logo, website graphics, social media posts, etc.). Determine the purpose and audience for the design. Set a budget and timeline."
+    title: "Let's Talk & Make a Plan",
+    desc: "We start by having a chat to understand what you want to achieve, what problems you're facing, and what your goals are. Based on that, we come up with a plan that fits your needs and budget."
   },
   {
     number: 2,
-    title: "Discuss Timeline & Budget",
-    desc: "Collaborate to define a realistic timeline and budget. Ensure all expectations are aligned before starting."
+    title: "We Get the Team Ready & Build a Strategy",
+    desc: "Once you're happy with the plan, our team jumps in. Within a couple of days, we look into your industry, check out your competitors, and figure out what’s working for others. Then, we create a custom strategy to help your brand grow and assign a team to put it into action."
   },
   {
     number: 3,
-    title: "Finalize Project & Get Files",
-    desc: "Review the final output. Once approved, receive all project files in required formats, ready to use."
+    title: "Time to Grow!",
+    desc: "Now the real work begins! Our team starts making things happen—sharing updates, creating content, and trying new strategies. We stay with you every step of the way to make sure your business or page grows faster and stronger."
   }
 ];
 
