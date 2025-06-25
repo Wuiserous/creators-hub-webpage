@@ -44,7 +44,7 @@ const NavBar = forwardRef((props, ref) => {
             <div className="h-10 flex flex-col lg:flex-row items-center  lg:right-22 lg:opacity-80 justify-center w-fit
                          lg:w-auto lg:h-auto lg:justify-start">
                                       <span className="ml-2 text-black/40
-                         lg:ml-0 lg:text-white/60 lg:text-sm lg:ml-2 lg:mr-1">Social media management & creative marketing</span>
+                         lg:ml-0 lg:text-white/60 lg:text-sm lg:ml-2 lg:mr-1">Creative Media Management</span>
               <div className="flex flex-row gap-1 items-center justify-center
                             lg:text-sm lg:text-green-400 mt-[1px]"> {/* Changed text color for better visibility on black */}
                 <span><PulsatingDot color="green" /></span> {/* Assuming PulsatingDot can take a color prop or adapts */}
