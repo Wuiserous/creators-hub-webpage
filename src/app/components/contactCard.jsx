@@ -12,7 +12,7 @@ const ContactCard = () => {
         <h2 className="text-2xl font-bold text-gray-900">Book a call</h2>
         <p className="text-sm text-gray-500">Book a free 15-minute call with me</p>
 
-        <div className="bg-black fancy-btn  hover:scale-[1.1] text-white p-4 rounded-2xl shadow-lg">
+        <div className="bg-black fancy-btn border-[2px] border-white/70 hover:scale-[1.1] text-white p-4 rounded-2xl shadow-lg">
           <PhoneCall size={32} />
         </div>
 

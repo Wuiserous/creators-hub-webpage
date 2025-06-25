@@ -16,7 +16,10 @@ import { MdOutlineOndemandVideo } from "react-icons/md";
 import { MdOutlineReviews } from "react-icons/md";
 import { LuFileQuestion } from "react-icons/lu";
 import { PiCompassToolLight } from "react-icons/pi";
-
+import { MdVideoLibrary } from "react-icons/md";
+import { BiSolidUserPin } from "react-icons/bi";
+import { BsFillQuestionSquareFill } from "react-icons/bs";
+import { PiToolboxFill } from "react-icons/pi";
 
 
 
@@ -62,36 +65,36 @@ function App() {
   return (
     <div className='w-full scroll-smooth touch-pan-y border border-black overscroll-contain'>
       {/* App Bar */}
-      <nav className="fixed bottom-4 left-1/2 -translate-x-1/2 z-50 px-6 py-3 rounded-full backdrop-blur-md bg-white/30 border-[2px] border-white/95 shadow-md flex gap-6 text-white transition-all duration-300 scale-110 mb-1">
+      <nav className="fixed bottom-4 left-1/2 -translate-x-1/2 z-50 px-6 py-2 rounded-full backdrop-blur-md bg-black/5 border-[2px] border-white/95 shadow-xl flex gap-6 text-white transition-all duration-300 scale-110 mb-1">
   <button
     className="text-white hover:scale-150 transition-transform duration-300 p-2"
     onClick={() => scrollToSection(navRef)}
   >
-    <FaHome size={20} />
+    <FaHome className='' size={20} />
   </button>
   <button
     className="text-white hover:scale-150 transition-transform duration-300 p-2"
     onClick={() => scrollToSection(aboutRef)}
   >
-    <MdOutlineOndemandVideo size={22} />
+    <MdVideoLibrary size={22} />
   </button>
   <button
     className="text-white hover:scale-150 transition-transform duration-300 p-2"
     onClick={() => scrollToSection(testimonialRef)}
   >
-    <MdOutlineReviews size={22} />
+    <BiSolidUserPin size={22} />
   </button>
   <button
     className="text-white hover:scale-150 transition-transform duration-300 p-2"
     onClick={() => scrollToSection(faqRef)}
   >
-    <LuFileQuestion size={22} />
+    <BsFillQuestionSquareFill size={22} />
   </button>
   <button
     className="text-white hover:scale-150 transition-transform duration-300 p-2 text-2xl"
     onClick={() => scrollToSection(skillRef)}
   >
-    <PiCompassToolLight />
+    <PiToolboxFill />
   </button>
 </nav>
 

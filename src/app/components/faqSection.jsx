@@ -91,7 +91,7 @@ const FAQSection = (forwardRef((props, ref) => {
       <span className="text-lg text-black font-medium">
         Can't find your answer?
       </span>
-      <button className="border-none fancy-btn block mt-4 px-10 py-4 mx-auto rounded-full text-xl text-white/90 bg-black/90 flex shadow-black/50 shadow-lg items-center justify-center">
+      <button className="border-white/70 border-[2px] fancy-btn block mt-4 px-10 py-4 mx-auto rounded-full text-xl text-white/90 bg-black/90 flex shadow-black/50 shadow-lg items-center justify-center">
         Get in touch
       </button>
     </div>
